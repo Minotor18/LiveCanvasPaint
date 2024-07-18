@@ -16,10 +16,6 @@ mpDraw = mp.solutions.drawing_utils
 # FPS hesaplaması için zamanlayıcı
 pTime = 0
 
-# Renkler
-colors = [(255, 0, 0), (0, 255, 0), (0, 0, 255), (255, 255, 0), (255, 0, 255)]
-
-
 canvas = np.zeros((480, 640, 3), dtype=np.uint8)
 
 # Renk
